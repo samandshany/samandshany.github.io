@@ -18,7 +18,7 @@
 //   "foundation/components/joyride",
 //   "foundation/components/keystrokes",
    "foundation/components/labels",
-//   "foundation/components/magellan",
+   "foundation/components/magellan",
 //   "foundation/components/orbit",
 //   "foundation/components/pagination",
    "foundation/components/panels",
@@ -52,7 +52,7 @@ h3.title { text-align: center; margin-top: 1em; margin-bottom: 1em; }
 	background-image: url('../imgs/vector_tmp.png');
 	background-position: center -215px;
 	background-repeat: no-repeat;
-	padding-top: 110px;
+	padding-top: 80px;
 }
 	
 .page-divider {
@@ -68,3 +68,6 @@ h3.title { text-align: center; margin-top: 1em; margin-bottom: 1em; }
 	
 	a { float: left; display: block;}
 }
+
+/* kill default weirdness */
+[data-magellan-expedition] { padding: 0 !important; }

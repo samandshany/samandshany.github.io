@@ -3415,6 +3415,26 @@ label.error {
   color: #333333;
 }
 
+/* line 14, ../bower_components/foundation/scss/foundation/components/_magellan.scss */
+[data-magellan-expedition] {
+  background: white;
+  z-index: 50;
+  min-width: 100%;
+  padding: 10px;
+}
+/* line 20, ../bower_components/foundation/scss/foundation/components/_magellan.scss */
+[data-magellan-expedition] .sub-nav {
+  margin-bottom: 0;
+}
+/* line 22, ../bower_components/foundation/scss/foundation/components/_magellan.scss */
+[data-magellan-expedition] .sub-nav dd {
+  margin-bottom: 0;
+}
+/* line 23, ../bower_components/foundation/scss/foundation/components/_magellan.scss */
+[data-magellan-expedition] .sub-nav .active {
+  line-height: 1.8em;
+}
+
 /* Panels */
 /* line 70, ../bower_components/foundation/scss/foundation/components/_panels.scss */
 .panel {
@@ -5311,7 +5331,7 @@ h3.title {
   background-image: url("../imgs/vector_tmp.png");
   background-position: center -215px;
   background-repeat: no-repeat;
-  padding-top: 110px;
+  padding-top: 80px;
 }
 
 /* line 58, ../scss/app.scss */
@@ -5330,4 +5350,10 @@ h3.title {
 .page-divider a {
   float: left;
   display: block;
+}
+
+/* kill default weirdness */
+/* line 73, ../scss/app.scss */
+[data-magellan-expedition] {
+  padding: 0 !important;
 }
